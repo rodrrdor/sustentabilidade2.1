@@ -148,7 +148,7 @@ function draw() {
     ctx.fillStyle = "black";
     ctx.textAlign = "center";
     ctx.font = "40px Comic Sans MS";
-    ctx.fillText("PONTUAÇÃO: " + score, cnv.width / 2, 40);
+    ctx.fillText("ACERTOS: " + score, cnv.width / 2, 40);
     ctx.fillText("ERROS: " + mistakes, cnv.width / 2, 80);
     ctx.textAlign = "left";
     (timer > 0) ? ctx.fillText("TEMPO: " + ((timer--) / 60).toFixed(2), cnv.width / 2 - 120, 120) : reset();
